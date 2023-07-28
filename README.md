@@ -6,7 +6,6 @@ Visual Studio Code extension Spring Initalizr: create maven project
 cd spring-boot
 ./mvnw package
 java -jar .\target\credit-api-0.0.1-SNAPSHOT.jar
-
 Command prompt to test:
 curl -X GET http://localhost:8080/hello  
 Hello, world!
@@ -25,3 +24,14 @@ flask run
 curl -X get http://localhost:5000/hello
 
 Django
+python -m venv venv
+venv\Scripts\activate
+pip install django
+python manage.py runserver
+no luck?
+
+Kotlin
+Install kotlin compiler?
+
+PHP
+Install php?
